@@ -1,0 +1,10 @@
+---
+namespace: rh1330
+bases:
+  - ../../bases
+resources:
+  - virtual-service.yaml
+patches:
+  - path: patch-deployment-mlapi.yaml
+    target:
+      kind: Deployment

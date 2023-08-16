@@ -1,0 +1,8 @@
+---
+namespace: rh1330
+bases:
+  - ../../bases
+patches:
+  - path: patch-deployment-mlapi.yaml
+    target:
+      kind: Deployment

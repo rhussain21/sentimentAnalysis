@@ -1,0 +1,23 @@
+solution
+
+#MacOS files
+.DS_Store
+
+#cache
+__pycache__/
+*.pyc
+
+
+#Misc.
+example.py
+README.md
+
+#Huggingface model and tokenizer files
+model/
+pytorch_model.bin
+tokenizer.json
+tokenizer_config.json
+vocab.txt
+special_tokens_map.json
+config.json
+
